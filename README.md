@@ -10,6 +10,8 @@ Webページの URL・取得日時・保存データ(HTML)・SHA-256ハッシュ
 
 1. このリポジトリをGitHubにpushし、GitHub Pagesを有効化する。(Settings → Pages → Branch: main / root)
 
+2.  `ots-upgrade.yml` を `.github/workflows/` フォルダ内に追加 
+
 | File name | 
 |---|
 | `.github/workflows/gyotaku.yml` | 
@@ -17,14 +19,16 @@ Webページの URL・取得日時・保存データ(HTML)・SHA-256ハッシュ
 | `archives/index.json` | 
 | `.nojekyll` |
 | `index.html` | 
+| `ots-upgrade.yml` |
 
 <p align="center">
   <img src="pc_view.jpg" width="">
 </p>
 
-2. アーカイブしたいときは、GitHubリポジトリの **Actions** タブ → **魚拓 (Web Archive)** → **Run workflow** を開き、
+3. アーカイブしたいときは、GitHubリポジトリの **Actions** タブ → **魚拓 (Web Archive)** → **Run workflow** を開き、
    `url` にアーカイブしたいページのURLを入力して実行する。
-3. 実行が完了すると:
+   
+4. 実行が完了すると:
    - `archives/` 配下に取得したHTMLがそのまま保存される
    - `archives/index.json` に以下のメタデータが追記される
      - `url`: 取得元URL
@@ -33,7 +37,8 @@ Webページの URL・取得日時・保存データ(HTML)・SHA-256ハッシュ
      - `sha256`: 保存データのSHA-256ハッシュ(改ざん検証用)
      - `httpStatus`: 取得時のHTTPステータスコード
      - `byteLength`: 保存データのバイト数
-4. GitHub Pagesの `index.html` にアクセスすると、記録した魚拓の一覧が表示される。
+
+5. GitHub Pagesの `index.html` にアクセスすると、記録した魚拓の一覧が表示される。
 
 ## ハッシュの検証方法
 
