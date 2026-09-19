@@ -53,4 +53,4 @@ node scripts/archive.mjs "https://example.com/page"
 
 - スクリーンショット(headless browser)の追加保存
 - 定期実行(cron)による自動巡回アーカイブ
-- 一覧ページへの検索・タグ絞り込み機能
+- 一覧ページの検索・タグ絞り込み機能
