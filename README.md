@@ -18,6 +18,10 @@ Webページの URL・取得日時・保存データ(HTML)・SHA-256ハッシュ
 | `.nojekyll` |
 | `index.html` | 
 
+<p align="center">
+  <img src="pc_view.jpg" width="">
+</p>
+
 2. アーカイブしたいときは、GitHubリポジトリの **Actions** タブ → **魚拓 (Web Archive)** → **Run workflow** を開き、
    `url` にアーカイブしたいページのURLを入力して実行する。
 3. 実行が完了すると:
