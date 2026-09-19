@@ -55,5 +55,6 @@ node scripts/archive.mjs "https://example.com/page"
 - 一覧ページの検索・タグ絞り込み機能
 
 
+### For Myself
 > [!CAUTION]
 > This URL must not be added to the list.
