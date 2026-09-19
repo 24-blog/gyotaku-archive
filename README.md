@@ -1,7 +1,7 @@
 [![License](https://img.shields.io/github/license/24-blog/childhood-gender-bias)](LICENSE)
 
 
-# 魚拓Archiveシステム
+## 魚拓Archiveシステム
 
 Webページの URL・取得日時・保存データ(HTML)・SHA-256ハッシュ を記録するアーカイブシステムです。
 
