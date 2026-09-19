@@ -7,12 +7,4 @@
     "httpStatus": 200,
     "byteLength": 59431
   },
-  {
-    "url": "https://megalodon.jp/2022-0203-2250-47/https://sites.google.com:443/view/againstm/home",
-    "fetchedAt": "2026-09-19T10:11:14.482Z",
-    "file": "2026-09-19T10-11-14-482Z_megalodon.jp-2022-0203-2250-47-https-sites.google.com-443-view-againstm-home.html",
-    "sha256": "8cac8806d6277140517bc3031a7d118f252c3cbbdba84eb21da814f4cf448e9a",
-    "httpStatus": 200,
-    "byteLength": 59333
-  }
 ]
