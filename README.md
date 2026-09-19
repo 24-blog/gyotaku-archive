@@ -1,5 +1,5 @@
 [![License](https://img.shields.io/github/license/24-blog/childhood-gender-bias)](LICENSE)
-![Private](https://img.shields.io/badge/Private-2088FF?style=plastic&logo=github&logoColor=white)
+![Timestamps](https://img.shields.io/badge/Timestamps-2088FF?style=plastic&logo=github&logoColor=white)
 
 
 ## 魚拓Archiveシステム
@@ -8,7 +8,7 @@ Webページの URL・取得日時・保存データ(HTML)・SHA-256ハッシュ
 
 ## 使い方
 
-1. このリポジトリをGitHubにpushし、GitHub Pagesを有効化する(Settings → Pages → Branch: main / root)。
+1. このリポジトリをGitHubにpushし、GitHub Pagesを有効化する。(Settings → Pages → Branch: main / root)
 
 | File name | 
 |---|
@@ -45,9 +45,26 @@ shasum -a 256 archives/<ファイル名>.html
 
 `archives/index.json` に記録された `sha256` の値と一致すれば、取得時点のデータと同一であることが確認できる。
 
+## OpenTimestampsによる第三者タイムスタンプ
+
+`archives/index.json` の `fetchedAt` は、Actions内のスクリプト自身が記録した「自己申告」の時刻であり、リポジトリの書き込み権限があれば理論上書き換え可能。これを補強するため、[OpenTimestamps](https://opentimestamps.org/)を使い、Bitcoinブロックチェーンを使った第三者証明を各アーカイブに付与している。
+
+- アーカイブ実行時、自動的に `archives/<ファイル名>.html.ots` という証明ファイルが生成される
+- 生成直後は「保留中(pending)」の状態。ハッシュがBitcoinブロックに実際に取り込まれるまで、数時間〜1日程度かかる
+- 別ワークフロー(`ots-upgrade.yml`)が毎日自動実行され、保留中の証明を確定状態にアップグレードする
+
+**確定した証明を検証する方法(要: opentimestamps-clientのインストール):**
+
+```
+pip install opentimestamps-client
+ots verify archives/<ファイル名>.html.ots
+```
+
+成功すると、「このファイルのハッシュ値は、この日時以前にBitcoinブロック番号◯◯に存在していた」ことが、Anthropicや24-blog、GitHubのいずれにも依存せず、Bitcoinネットワーク自体によって検証できる。
+
 ## ローカルで直接実行する場合
 
-GitHub Actionsを使わず、手元で実行することも可能(Node.js 18以上が必要)。
+GitHub Actionsを使わず、手元で実行することも可能。(Node.js 18以上が必要)
 
 ```
 node scripts/archive.mjs "https://example.com/page"
