@@ -53,7 +53,26 @@ const res = await fetch(url, {
   },
 });
 
-const html = await res.text();
+const rawHtml = await res.text();
+
+// 保存後にドメインを移しても相対パス(CSS/JS/画像/リンク)が壊れないよう、
+// <base href="..."> を挿入して基準URLを元サイトに固定する。
+// これにより「保存データを開く」で見たときの見た目・リンク切れを大幅に減らせる。
+const baseUrl = res.url || url; // リダイレクト後の最終URLを優先
+const baseTag = `<base href="${baseUrl.replace(/"/g, "&quot;")}">`;
+
+let html;
+if (/<head[^>]*>/i.test(rawHtml)) {
+  html = rawHtml.replace(/<head[^>]*>/i, (match) => `${match}\n${baseTag}`);
+} else if (/<html[^>]*>/i.test(rawHtml)) {
+  html = rawHtml.replace(/<html[^>]*>/i, (match) => `${match}\n<head>${baseTag}</head>`);
+} else {
+  html = `${baseTag}\n${rawHtml}`;
+}
+
+// ハッシュは実際に保存・公開する内容(baseタグ挿入後)に対して計算する。
+// これにより「index.jsonのハッシュ」と「archives/配下の実ファイル」が常に一致し、
+// 今後そのファイルが改ざんされていないかの検証に使える。
 const sha256 = createHash("sha256").update(html, "utf-8").digest("hex");
 
 writeFileSync(`archives/${filename}`, html, "utf-8");
