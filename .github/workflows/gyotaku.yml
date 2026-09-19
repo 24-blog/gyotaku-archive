@@ -24,7 +24,21 @@ jobs:
           node-version: "20"
 
       - name: ページを取得してアーカイブ
+        id: archive
         run: node scripts/archive.mjs "${{ github.event.inputs.url }}"
+
+      - name: Pythonセットアップ (OpenTimestamps用)
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: OpenTimestampsクライアントをインストール
+        run: pip install opentimestamps-client
+
+      - name: タイムスタンプを刻む(OpenTimestamps / Bitcoin)
+        run: |
+          ots stamp "archives/${{ steps.archive.outputs.filename }}" \
+            || echo "::warning::OpenTimestampsの刻印に失敗しました(ネットワークエラー等)。後で手動で ots stamp を実行してください。"
 
       - name: コミット & プッシュ
         run: |
