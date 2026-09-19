@@ -1,5 +1,5 @@
 [![License](https://img.shields.io/github/license/24-blog/childhood-gender-bias)](LICENSE)
-![Github](https://img.shields.io/badge/Private-2088FF?style=plastic&logo=gitub&logoColor=white)
+![Private](https://img.shields.io/badge/Private-2088FF?style=plastic&logo=github&logoColor=white)
 
 
 ## 魚拓Archiveシステム
