@@ -14,6 +14,7 @@ Webページの URL・取得日時・保存データ(HTML)・SHA-256ハッシュ
 | `.github/workflows/gyotaku.yml` | 
 | `scripts/archive.mjs` | 
 | `archives/index.json` | 
+| `.nojekyll` |
 | `index.html` | 
 | `README.md` | 
 
