@@ -65,7 +65,7 @@ pip install opentimestamps-client
 ots verify archives/<ファイル名>.html.ots
 ```
 
-成功すると、「このファイルのハッシュ値が、この日時以前にBitcoinブロック番号◯◯に存在していた」ことをAnthropicやGitHubのいずれにも依存せずBitcoinネットワーク自体によって検証できる。
+成功すると、「このファイルのハッシュ値がこの日時以前にBitcoinブロック番号◯◯◯に存在していた」ことをAnthropicやGitHubのいずれにも依存せずBitcoinネットワーク自体によって検証できる。
 
 ## ローカルで直接実行する場合
 
