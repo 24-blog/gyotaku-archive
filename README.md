@@ -80,3 +80,8 @@ node scripts/archive.mjs "https://example.com/page"
 - スクリーンショット(headless browser)の追加保存
 - 定期実行(cron)による自動巡回アーカイブ
 - 一覧ページの検索・タグ絞り込み機能
+
+
+⚠️COPYRIGHT<br>
+Textual commentary written by the repository owner is
+licensed under CC BY-NC-ND 4.0.
