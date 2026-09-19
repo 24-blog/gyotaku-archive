@@ -16,7 +16,6 @@ Webページの URL・取得日時・保存データ(HTML)・SHA-256ハッシュ
 | `archives/index.json` | 
 | `.nojekyll` |
 | `index.html` | 
-| `README.md` | 
 
 2. アーカイブしたいときは、GitHubリポジトリの **Actions** タブ → **魚拓 (Web Archive)** → **Run workflow** を開き、
    `url` にアーカイブしたいページのURLを入力して実行する。
@@ -54,3 +53,7 @@ node scripts/archive.mjs "https://example.com/page"
 - スクリーンショット(headless browser)の追加保存
 - 定期実行(cron)による自動巡回アーカイブ
 - 一覧ページの検索・タグ絞り込み機能
+
+
+> [!CAUTION]
+> This URL must not be added to the list.
