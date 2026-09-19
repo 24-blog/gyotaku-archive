@@ -55,8 +55,8 @@ shasum -a 256 archives/<ファイル名>.html
 `archives/index.json` の `fetchedAt` は、Actions内のスクリプト自身が記録した「自己申告」の時刻であり、リポジトリの書き込み権限があれば理論上書き換え可能。これを補強するため[OpenTimestamps](https://opentimestamps.org/)を使いBitcoinブロックチェーンを使った第三者証明を各アーカイブに付与している。
 
 - アーカイブ実行時、自動的に `archives/<ファイル名>.html.ots` という証明ファイルが生成される。
-- 生成直後は「保留中(pending)」の状態。ハッシュがBitcoinブロックに実際に取り込まれるまで、数時間〜1日程度かかる。
-- 別ワークフロー(`ots-upgrade.yml`)が毎日自動実行され、保留中の証明を確定状態にアップグレードする。
+- 生成直後は「保留中(pending)」の状態。ハッシュがBitcoinブロックへ実際に取り込まれるまで数時間〜1日程度かかる。
+- 別ワークフロー(`ots-upgrade.yml`)が毎日自動実行され、保留中の証明を確定状態にアップグレードする。**Actions** タブ → **OpenTimestamps確定チェック** から手動による強制実行可能。
 
 **確定した証明を検証する方法(要: opentimestamps-clientのインストール):**
 
