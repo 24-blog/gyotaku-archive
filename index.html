@@ -124,6 +124,7 @@ async function load() {
         </dl>
         <div class="actions">
           <a href="archives/${escapeAttr(r.file)}" target="_blank" rel="noopener">保存データを開く</a>
+          ${r.otsFile ? `<a href="archives/${escapeAttr(r.otsFile)}" download>OTS証明書</a>` : ""}
         </div>
       </div>
     `).join("");
