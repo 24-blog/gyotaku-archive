@@ -95,6 +95,7 @@ records.unshift({
   httpStatus: res.status,
   finalUrl: res.url !== url ? res.url : undefined,
   byteLength: Buffer.byteLength(html, "utf-8"),
+  otsFile: `${filename}.ots`, // OpenTimestamps証明ファイル(刻印に成功していれば存在する)
 });
 
 writeFileSync(indexPath, JSON.stringify(records, null, 2) + "\n", "utf-8");
@@ -104,6 +105,13 @@ console.log(`保存完了: archives/${filename}`);
 console.log(`取得日時: ${fetchedAt}`);
 console.log(`HTTPステータス: ${res.status}`);
 console.log(`SHA-256: ${sha256}`);
+
+// GitHub Actionsの後続ステップ(OpenTimestamps刻印)に、生成したファイル名を渡す
+if (process.env.GITHUB_OUTPUT) {
+  writeFileSync(process.env.GITHUB_OUTPUT, `filename=${filename}\n`, {
+    flag: "a",
+  });
+}
 
 if (!res.ok) {
   console.warn(
