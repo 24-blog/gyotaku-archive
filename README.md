@@ -34,13 +34,13 @@ WebページのURL・取得日時・保存データ(HTML)・SHA-256ハッシュ�
 
 1. このファイル各種をGitHubにpushし、GitHub Pagesを有効化する。(Settings → Pages → Branch: main / root)
 
-2.  `ots-upgrade.yml` はディレクトリでなく `.github/workflows/` フォルダ内に置く。
+2.  `ots-upgrade.yml` はディレクトリでなく `.github/workflows/` フォルダ内に配置する。
 
 <p align="center">
   <img src="pc_view.jpg" width="">
 </p>
 
-3. アーカイブの実施手順は、GitHubリポジトリの **Actions** タブ → **魚拓 (Web Archive)** → **Run workflow** を開き、
+3. アーカイブの操作手順は、GitHubリポジトリの **Actions** タブ → **魚拓 (Web Archive)** → **Run workflow** を開き、
    `url` にアーカイブしたいページのURLを入力して実行する。
    
 4. 実行が完了すると:
