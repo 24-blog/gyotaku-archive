@@ -30,7 +30,7 @@ WebページのURL・取得日時・保存データ(HTML)・SHA-256ハッシュ�
 | `archives/index.json` | 
 | `.nojekyll` |
 | `index.html` | 
-| `ots-upgrade.yml` |
+| `ots-upgrade.yml` ←2 |
 
 1. このリポジトリをGitHubにpushし、GitHub Pagesを有効化する。(Settings → Pages → Branch: main / root)
 
