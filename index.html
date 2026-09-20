@@ -140,7 +140,7 @@ async function load() {
         </dl>
         <div class="actions">
           <a href="archives/${escapeAttr(r.file)}" target="_blank" rel="noopener">保存データを開く</a>
-          ${r.otsFile ? `<a href="archives/${escapeAttr(r.otsFile)}" download>OTS証明書</a>` : ""}
+          ${r.otsFile ? `<a href="archives/${escapeAttr(r.otsFile)}" download>OTS証明書発行</a>` : ""}
         </div>
       </div>
     `).join("");
@@ -160,7 +160,7 @@ load();
 </script>
   
 <footer>
-  <a href="https://github.com/24-blog/gyotaku-archive/blob/main/README.md" target="_blank" rel="noopener">README</a>
+  <a href="https://github.com/24-blog/gyotaku-archive/blob/main/README.md" target="_blank" rel="noopener">README ↗</a>
 </footer>
   
 </body>
