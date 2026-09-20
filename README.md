@@ -40,7 +40,7 @@ WebページのURL・取得日時・保存データ(HTML)・SHA-256ハッシュ�
   <img src="pc_view.jpg" width="">
 </p>
 
-3. アーカイブしたいときは、GitHubリポジトリの **Actions** タブ → **魚拓 (Web Archive)** → **Run workflow** を開き、
+3. アーカイブの実施手順は、GitHubリポジトリの **Actions** タブ → **魚拓 (Web Archive)** → **Run workflow** を開き、
    `url` にアーカイブしたいページのURLを入力して実行する。
    
 4. 実行が完了すると:
