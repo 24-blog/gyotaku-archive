@@ -37,7 +37,7 @@ WebページのURL・取得日時・保存データ(HTML)・SHA-256ハッシュ�
 2.  `ots-upgrade.yml` はルートディレクトリに生成された `.github/workflows/` フォルダ内に配置する。
 
 <p align="center">
-  <img src="pc_view.jpg" width="">
+  <img src="assets/pc_view.jpg" width="">
 </p>
 
 3. アーカイブの操作手順は、GitHubリポジトリの **Actions** タブ → **魚拓 (Web Archive)** → **Run workflow** を開き、
