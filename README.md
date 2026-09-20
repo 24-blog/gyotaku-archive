@@ -1,5 +1,5 @@
 [![License](https://img.shields.io/github/license/24-blog/childhood-gender-bias)](LICENSE)
-![Timestamps](https://img.shields.io/badge/Timestamps-2088FF?style=plastic&logo=github&logoColor=white)
+![Timestamp](https://img.shields.io/badge/Timestamps-2088FF?style=plastic&logo=github&logoColor=white)
 
 
 ## 目次
