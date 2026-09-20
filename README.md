@@ -105,7 +105,7 @@ We acknowledge that:
 
 If you are a copyright holder and believe that specific content in this repository infringes your rights:
 
-1. **Please contact us first** at [https://docs.google.com/forms/d/e/1FAIpQLSdXV4cZdQdfSzytiWLUNCQvRCg_KgM-53nWvkWb8MZu5y3ATA/viewform] with details of the content in question.
+1. **Please contact us first** at [https://forms.gle/24blog](https://docs.google.com/forms/d/e/1FAIpQLSdXV4cZdQdfSzytiWLUNCQvRCg_KgM-53nWvkWb8MZu5y3ATA/viewform) with details of the content in question.
 2. We will review your request promptly and, where appropriate, remove the content voluntarily.
 3. We ask that you allow us a reasonable opportunity to respond before filing a formal DMCA notice with GitHub.
 
