@@ -23,10 +23,6 @@ WebページのURL・取得日時・保存データ(HTML)・SHA-256ハッシュ�
 
 ## 使い方
 
-1. このリポジトリをGitHubにpushし、GitHub Pagesを有効化する。(Settings → Pages → Branch: main / root)
-
-2.  `ots-upgrade.yml` を `.github/workflows/` フォルダ内に追加。
-
 | File name | 
 |---|
 | `.github/workflows/gyotaku.yml` | 
@@ -35,6 +31,10 @@ WebページのURL・取得日時・保存データ(HTML)・SHA-256ハッシュ�
 | `.nojekyll` |
 | `index.html` | 
 | `ots-upgrade.yml` |
+
+1. このリポジトリをGitHubにpushし、GitHub Pagesを有効化する。(Settings → Pages → Branch: main / root)
+
+2.  `ots-upgrade.yml` は `.github/workflows/` フォルダ内に追加。
 
 <p align="center">
   <img src="pc_view.jpg" width="">
