@@ -83,6 +83,39 @@ node scripts/archive.mjs "https://example.com/page"
 - 一覧ページの検索・タグ絞り込み機能
 
 
+## 📜 Legal and Ethical Notice
+
+### Purpose of This Repository
+
+This repository contains archived copies of publicly accessible web pages ("web fishprints"). These archives are created and maintained **exclusively for the following public-interest purposes**:
+
+1. **Verifiability of citations**: Ensuring that sources cited in critical commentary, fact-checking, or academic discussion can be independently verified.
+2. **Preservation of public discourse**: Preventing the loss of evidence when original pages are deleted, whether intentionally or accidentally.
+3. **Non-commercial research**: Supporting scholarly and journalistic research into the evolution of online information.
+
+### Copyright Acknowledgment
+
+We acknowledge that:
+
+- The archived content remains the property of its respective copyright holders.
+- This repository does not claim ownership over any third-party content.
+- The archives are made available under a good-faith belief that this use qualifies as fair use (U.S.) / fair dealing (other jurisdictions) for purposes of criticism, commentary, news reporting, teaching, scholarship, and research.
+
+### Takedown Requests
+
+If you are a copyright holder and believe that specific content in this repository infringes your rights:
+
+1. **Please contact us first** at [https://docs.google.com/forms/d/e/1FAIpQLSdXV4cZdQdfSzytiWLUNCQvRCg_KgM-53nWvkWb8MZu5y3ATA/viewform] with details of the content in question.
+2. We will review your request promptly and, where appropriate, remove the content voluntarily.
+3. We ask that you allow us a reasonable opportunity to respond before filing a formal DMCA notice with GitHub.
+
+We are committed to resolving any concerns in good faith and minimizing any potential harm to rights holders while preserving the integrity of public discourse.
+
+### Disclaimer
+
+This repository is provided "as is" for educational and archival purposes only. We make no warranties regarding the accuracy, completeness, or legality of the archived content. Users are responsible for their own use of this material.
+
+
 ⚠️COPYRIGHT<br>
 Textual commentary written by the repository owner is
 licensed under CC BY-NC-ND 4.0.
