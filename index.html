@@ -84,6 +84,22 @@
   }
   .actions a:hover { border-color: var(--gold-dim); color: var(--gold); }
   .empty { color: var(--text-dim); font-family: "DM Mono", monospace; }
+
+footer {
+  max-width: 960px;
+  margin: 3rem auto 0;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--border);
+  text-align: center;
+}
+footer a {
+  font-family: "DM Mono", monospace;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  text-decoration: none;
+}
+footer a:hover { color: var(--gold); }
+  
 </style>
 </head>
 <body>
@@ -142,5 +158,10 @@ function escapeAttr(s) { return escapeHtml(s); }
 
 load();
 </script>
+  
+<footer>
+  <a href="https://github.com/24-blog/gyotaku-archive/blob/main/README.md" target="_blank" rel="noopener">README</a>
+</footer>
+  
 </body>
 </html>
