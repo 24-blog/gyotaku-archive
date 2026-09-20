@@ -2,6 +2,21 @@
 ![Timestamps](https://img.shields.io/badge/Timestamps-2088FF?style=plastic&logo=github&logoColor=white)
 
 
+## 目次
+
+- [魚拓Archiveシステム](#魚拓archiveシステム)
+- [使い方](#使い方)
+- [ハッシュの検証方法](#ハッシュの検証方法)
+- [OpenTimestampsによる第三者タイムスタンプ](#opentimestampsによる第三者タイムスタンプ)
+- [ローカルで直接実行する場合](#ローカルで直接実行する場合)
+- [今後の拡張案](#今後の拡張案)
+- [📜 Legal and Ethical Notice](#-legal-and-ethical-notice)
+  - [Purpose of This Repository](#purpose-of-this-repository)
+  - [Copyright Acknowledgment](#copyright-acknowledgment)
+  - [Takedown Requests](#takedown-requests)
+  - [Disclaimer](#disclaimer)
+
+
 ## 魚拓Archiveシステム
 
 WebページのURL・取得日時・保存データ(HTML)・SHA-256ハッシュを記録するアーカイブシステムです。
