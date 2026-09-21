@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/github/license/24-blog/gyotaku-archive)](LICENSE)
+[![License](https://img.shields.io/badge/license-AGPL-3.0-orange)](LICENSE)
 ![Timestamp](https://img.shields.io/badge/Timestamp-2088FF?style=plastic&logo=github&logoColor=white)
 
 
