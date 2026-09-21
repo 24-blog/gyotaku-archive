@@ -1,4 +1,4 @@
-
+[![License](https://img.shields.io/github/license/24-blog/gyotaku-archive)](LICENSE)
 ![Timestamp](https://img.shields.io/badge/Timestamp-2088FF?style=plastic&logo=github&logoColor=white)
 
 
