@@ -98,7 +98,7 @@ node scripts/archive.mjs "https://example.com/page"
 - 一覧ページの検索・タグ絞り込み機能
 
 
-## 🗒️Legal and Ethical Notice
+## 🗒️ Legal and Ethical Notice
 
 ### Purpose of This Repository
 
@@ -116,7 +116,7 @@ We acknowledge that:
 - This repository does not claim ownership over any third-party content.
 - The archives are made available under a good-faith belief that this use qualifies as fair use (U.S.) / fair dealing (other jurisdictions) for purposes of criticism, commentary, news reporting, teaching, scholarship, and research.
 
-### 📬️Takedown Requests
+### 📬️ Takedown Requests
 
 If you are a copyright holder and believe that specific content in this repository infringes your rights:
 
