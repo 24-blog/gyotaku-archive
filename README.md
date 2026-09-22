@@ -32,7 +32,7 @@ WebページのURL・取得日時・保存データ(HTML)・SHA-256ハッシュ�
 | `index.html` | 
 | `ots-upgrade.yml` ←2️⃣ |
 
-1. このファイル各種をGitHubにpushし、GitHub Pagesを有効化する。(Settings → Pages → Branch: main / root)
+1. これらのファイルをGitHubにpushし、GitHub Pagesを有効化する。(Settings → Pages → Branch: main / root)
 
 2.  `ots-upgrade.yml` はルートディレクトリに生成された `.github/workflows/` フォルダ内に配置する。
 
