@@ -10,10 +10,10 @@
 - [OpenTimestampsによる第三者タイムスタンプ](#opentimestampsによる第三者タイムスタンプ)
 - [ローカルで直接実行する場合](#ローカルで直接実行する場合)
 - [今後の拡張案](#今後の拡張案)
-- [🗒️Legal and Ethical Notice](#-legal-and-ethical-notice)
+- [🗒️ Legal and Ethical Notice](#-legal-and-ethical-notice)
   - [Purpose of This Repository](#purpose-of-this-repository)
   - [Copyright Acknowledgment](#copyright-acknowledgment)
-  - [📬️Takedown Requests](#takedown-requests)
+  - [📬️ Takedown Requests](#takedown-requests)
   - [Disclaimer](#disclaimer)
 
 
