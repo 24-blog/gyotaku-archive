@@ -17,7 +17,7 @@
   - [Disclaimer](#disclaimer)
 
 
-## 魚拓Archiveシステム
+## 魚拓アーカイブ
 
 WebページのURL・取得日時・保存データ(HTML)・SHA-256ハッシュを記録するアーカイブシステムです。
 
