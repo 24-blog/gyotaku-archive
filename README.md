@@ -10,10 +10,10 @@
 - [OpenTimestampsによる第三者タイムスタンプ](#opentimestampsによる第三者タイムスタンプ)
 - [ローカルで直接実行する場合](#ローカルで直接実行する場合)
 - [今後の拡張案](#今後の拡張案)
-- [📜 Legal and Ethical Notice](#-legal-and-ethical-notice)
+- [🗒️Legal and Ethical Notice](#-legal-and-ethical-notice)
   - [Purpose of This Repository](#purpose-of-this-repository)
   - [Copyright Acknowledgment](#copyright-acknowledgment)
-  - [Takedown Requests](#takedown-requests)
+  - [📬️Takedown Requests](#takedown-requests)
   - [Disclaimer](#disclaimer)
 
 
@@ -98,7 +98,7 @@ node scripts/archive.mjs "https://example.com/page"
 - 一覧ページの検索・タグ絞り込み機能
 
 
-## 📜 Legal and Ethical Notice
+## 🗒️Legal and Ethical Notice
 
 ### Purpose of This Repository
 
@@ -116,7 +116,7 @@ We acknowledge that:
 - This repository does not claim ownership over any third-party content.
 - The archives are made available under a good-faith belief that this use qualifies as fair use (U.S.) / fair dealing (other jurisdictions) for purposes of criticism, commentary, news reporting, teaching, scholarship, and research.
 
-### Takedown Requests📬️
+### 📬️Takedown Requests
 
 If you are a copyright holder and believe that specific content in this repository infringes your rights:
 
