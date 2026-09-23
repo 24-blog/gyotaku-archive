@@ -133,3 +133,5 @@ This repository is provided "as is" for educational and archival purposes only. 
 
 ⚠️COPYRIGHT<br>
 All non-code text authored by the repository owner is licensed under CC BY-NC-ND 4.0.
+
+Original archival documents remain subject to their respective copyright and usage terms.
